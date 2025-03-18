@@ -1,6 +1,7 @@
 
 # Papers about LLM Personality & Style
 > A list of papers related to LLM Personality and Style.
+
 <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Last%20Update-2025--03--18-success" alt="update"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-0-2D333B" alt="PaperNum"/>
 
 ## List of Content
