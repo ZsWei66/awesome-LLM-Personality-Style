@@ -1,33 +1,47 @@
-
 # Papers about LLM Personality & Style
-> A list of papers related to LLM Personality and Style. W
+> A list of papers related to LLM Personality and Style. We classify the papers according to their methodological differences into two main parts (LLM Personalities & LLM Style), each with sub-categories of technical approaches.
 
-<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Last%20Update-2025--03--18-success" alt="update"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-0-2D333B" alt="PaperNum"/>
+<img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Last%20Update-2024--03--18-success" alt="update"/> <img src="https://img.shields.io/badge/Number%20of%20Papers-4-2D333B" alt="PaperNum"/>
 
 ## List of Content
 
-- [Part1](#Part1)
-- [Part2](#Part2)
+- [Part 1: LLM Personalities](#part-1-llm-personalities)
+  - [Hidden Layers Modification](#hidden-layers-modification)
+  - [Evaluation & Knowledge Grounding](#evaluation--knowledge-grounding)
+- [Part 2: LLM Styles](#part-2-llm-styles)
+  - [Neuron-level Style Control](#neuron-level-style-control)
+- [Citation](#citation)
+
+
+---
+
+## Part 1: LLM Personalities
+
+### Hidden Layers Modification
+| **Venue** | **Title** | **Paper** | **Code** | **Brief Intro** |
+| :-------: | --------- |:---------:|:--------:|:---------------:|
+| - | ControlLM: Crafting Diverse Personalities for Language Models | [![arXiv](https://img.shields.io/badge/arXiv-2402.10151-b31b1b)](https://arxiv.org/pdf/2402.10151) | [![GitHub](https://img.shields.io/github/stars/WENGSYX/ControlLM)](https://github.com/WENGSYX/ControlLM) | Proposes a bilingual role evaluation benchmark for testing LLMs in diverse personalities. |
+
+### Evaluation & Knowledge Grounding
+| **Venue** | **Title** | **Paper** | **Code** | **Brief Intro** |
+| :-------: | --------- |:---------:|:--------:|:---------------:|
+| - | RoleEval: A Bilingual Role Evaluation Benchmark | [![arXiv](https://img.shields.io/badge/arXiv-2312.16132-b31b1b)](http://arxiv.org/pdf/2312.16132) | [![GitHub](https://img.shields.io/github/stars/Magnetic2014/RoleEval)](https://github.com/Magnetic2014/RoleEval) | A benchmark for evaluating LLM role-playing consistency across scenarios. |
+| EMNLP23 | PeaCoK: Persona Commonsense Knowledge for Narratives | [![arXiv](https://img.shields.io/badge/arXiv-2305.02364-b31b1b)](http://arxiv.org/pdf/2305.02364) | [![GitHub](https://img.shields.io/github/stars/Silin159/PeaCoK)](https://github.com/Silin159/PeaCoK) | Constructs a persona commonsense knowledge base for narrative generation. |
+
+---
+
+## Part 2: LLM Styles
+
+### Neuron-level Style Control
+| **Venue** | **Title** | **Paper** | **Code** | **Brief Intro** |
+| :-------: | --------- |:---------:|:--------:|:---------------:|
+| EMNLP24 | Style-Specific Neurons for Steering LLMs in Text Style Transfer | [![arXiv](https://img.shields.io/badge/arXiv-2410.00593-b31b1b)](https://arxiv.org/pdf/2410.00593) | [![GitHub](https://img.shields.io/github/stars/wenlai-lavine/sNeuron-TST)](https://github.com/wenlai-lavine/sNeuron-TST) | Identifies style-specific neurons to control text style transfer in LLMs. |
+
+---
 
 ## Citation
 
 If you found this project helpful, please kindly cite our work:
+```bibtex
 
-```
-
-```
-
-## Hidden Layers Modification
-
-| **Venue** | **Title** | **Paper** | **Code** | **Brief Intro** |
-| :-------: | --------- |:---------:|:--------:|:---------------:|
-| :heavy_minus_sign: | ControlLM: Crafting Diverse Personalities for Language Models | [![arXiv](https://img.shields.io/badge/arXiv-2402.10151-b31b1b.svg)](https://arxiv.org/pdf/2402.10151) | [![GitHub](https://img.shields.io/github/stars/WENGSYX/ControlLM?tab=readme-ov-file)](https://github.com/WENGSYX/ControlLM?tab=readme-ov-file) | 提出一个双语角色评估基准，用于测试大语言模型在不同角色中的表现。 |
-| EMNLP23 | PeaCoK: Persona Commonsense Knowledge for Consistent and Engaging Narratives | [![arXiv](https://img.shields.io/badge/arXiv-2305.02364-b31b1b.svg)](http://arxiv.org/pdf/2305.02364) | [![GitHub](https://img.shields.io/github/stars/Silin159/PeaCoK)](https://github.com/WENGSYX/ControlLM?tab=readme-ov-file) | 构建人物常识知识库，用于生成一致且吸引人的叙事内容。 |
-
-## Part2
-
-| **Venue** | **Title** | **Paper** | **Code** | **Brief Intro** |
-| :-------: | --------- |:---------:|:--------:|:---------------:|
-| :heavy_minus_sign: | RoleEval: A Bilingual Role Evaluation Benchmark for Large Language Models | [![arXiv](https://img.shields.io/badge/arXiv-2312.16132-b31b1b.svg)](http://arxiv.org/pdf/2312.16132) | [![GitHub](https://img.shields.io/github/stars/Magnetic2014/RoleEval)](https://github.com/Magnetic2014/RoleEval) | 提出一个双语角色评估基准，用于测试大语言模型在不同角色中的表现。 |
-| EMNLP23 | PeaCoK: Persona Commonsense Knowledge for Consistent and Engaging Narratives | [![arXiv](https://img.shields.io/badge/arXiv-2305.02364-b31b1b.svg)](http://arxiv.org/pdf/2305.02364) | [![GitHub](https://img.shields.io/github/stars/Silin159/PeaCoK)](https://github.com/Silin159/PeaCoK) | 构建人物常识知识库，用于生成一致且吸引人的叙事内容。 |
-
+}
