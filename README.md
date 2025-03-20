@@ -5,17 +5,17 @@
 
 ## List of Content
 
-- [Part 1: LLM Personalities](#part-1-llm-personalities)
+- [LLM Personalities](#part-1-llm-personalities)
   - [Hidden Layers Modification](#hidden-layers-modification)
   - [Evaluation & Knowledge Grounding](#evaluation--knowledge-grounding)
-- [Part 2: LLM Styles](#part-2-llm-styles)
+- [LLM Styles](#part-2-llm-styles)
   - [Neuron-level Style Control](#neuron-level-style-control)
 - [Citation](#citation)
 
 
 ---
 
-## Part 1: LLM Personalities
+## LLM Personalities
 
 ### Hidden Layers Modification
 | **Venue** | **Title** | **Paper** | **Code** | **Brief Intro** |
@@ -30,7 +30,7 @@
 
 ---
 
-## Part 2: LLM Styles
+## LLM Styles
 
 ### Neuron-level Style Control
 | **Venue** | **Title** | **Paper** | **Code** | **Brief Intro** |
