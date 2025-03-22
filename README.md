@@ -6,23 +6,22 @@
 ## List of Content
 
 - [LLM Personalities](#part-1-llm-personalities)
-  - [Hidden Layers Modification](#hidden-layers-modification)
-  - [Evaluation & Knowledge Grounding](#evaluation--knowledge-grounding)
+  - [训练方法](#训练方法)
+  - [建模创新](#建模创新)
 - [LLM Styles](#part-2-llm-styles)
   - [Neuron-level Style Control](#neuron-level-style-control)
 - [Citation](#citation)
-
 
 ---
 
 ## LLM Personalities
 
-### Hidden Layers Modification
+### 训练方法
 | **Venue** | **Title** | **Paper** | **Code** | **Brief Intro** |
 | :-------: | --------- |:---------:|:--------:|:---------------:|
 | - | ControlLM: Crafting Diverse Personalities for Language Models | [![arXiv](https://img.shields.io/badge/arXiv-2402.10151-b31b1b)](https://arxiv.org/pdf/2402.10151) | [![GitHub](https://img.shields.io/github/stars/WENGSYX/ControlLM)](https://github.com/WENGSYX/ControlLM) | Proposes a bilingual role evaluation benchmark for testing LLMs in diverse personalities. |
 
-### Evaluation & Knowledge Grounding
+### 建模创新
 | **Venue** | **Title** | **Paper** | **Code** | **Brief Intro** |
 | :-------: | --------- |:---------:|:--------:|:---------------:|
 | - | RoleEval: A Bilingual Role Evaluation Benchmark | [![arXiv](https://img.shields.io/badge/arXiv-2312.16132-b31b1b)](http://arxiv.org/pdf/2312.16132) | [![GitHub](https://img.shields.io/github/stars/Magnetic2014/RoleEval)](https://github.com/Magnetic2014/RoleEval) | A benchmark for evaluating LLM role-playing consistency across scenarios. |
@@ -40,7 +39,6 @@
 ---
 
 ## Citation
-
 If you found this project helpful, please kindly cite our work:
 ```bibtex
 
